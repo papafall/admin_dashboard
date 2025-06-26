@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adventure Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="branding">
+          <span class="material-icons">terrain</span>
+          <h2>TrailBlazer</h2>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><span class="material-icons">explore</span>Trails</li>
+            <li><span class="material-icons">account_circle</span>Profile</li>
+            <li><span class="material-icons">group_add</span>Community</li>
+            <li><span class="material-icons">calendar_today</span>Events</li>
+            <li><span class="material-icons">photo_camera</span>Gallery</li>
+            <li><span class="material-icons">eco</span>Nature Guide</li>
+          </ul>
+        </nav>
+        <nav class="settings-nav">
+          <ul>
+            <li><span class="material-icons">settings</span>Settings</li>
+            <li>
+              <span class="material-icons">help_outline</span>Trail Support
+            </li>
+            <li><span class="material-icons">security</span>Safety Info</li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main Content Area -->
+      <div class="main-content">
+        <!-- Header -->
+        <header class="header">
+          <div class="search-bar">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Search trails and adventures..." />
+          </div>
+          <div class="user-info">
+            <span class="material-icons">notifications_active</span>
+            <img
+              src="https://via.placeholder.com/40"
+              alt="User Avatar"
+              class="avatar"
+            />
+            <span class="user-name">Alex Trailblazer</span>
+          </div>
+          <div class="user-greeting">
+            <img
+              src="https://via.placeholder.com/60"
+              alt="User Avatar"
+              class="avatar-large"
+            />
+            <div class="greeting-text">
+              <p>Welcome back,</p>
+              <h2>Alex Trailblazer (@wilderness_explorer)</h2>
+            </div>
+          </div>
+          <div class="header-buttons">
+            <button>New Trip</button>
+            <button>Log Adventure</button>
+            <button>Share Story</button>
+          </div>
+        </header>
+
+        <!-- Dashboard Content -->
+        <div class="dashboard">
+          <div class="projects">
+            <h3>Recent Adventures</h3>
+            <div class="cards">
+              <div class="card">
+                <h4>Mount Rainier Summit</h4>
+                <p>
+                  Successfully completed the challenging ascent to Mount
+                  Rainier's summit. Perfect weather conditions with stunning
+                  views of the Cascade Range.
+                </p>
+                <div class="card-actions">
+                  <span class="material-icons">favorite_border</span>
+                  <span class="material-icons">bookmark_border</span>
+                  <span class="material-icons">share</span>
+                </div>
+              </div>
+              <div class="card">
+                <h4>Pacific Crest Trail Section</h4>
+                <p>
+                  Completed the Oregon section of the PCT. Encountered diverse
+                  wildlife and connected with fellow hikers along the way.
+                </p>
+                <div class="card-actions">
+                  <span class="material-icons">favorite_border</span>
+                  <span class="material-icons">bookmark_border</span>
+                  <span class="material-icons">share</span>
+                </div>
+              </div>
+              <div class="card">
+                <h4>Desert Canyon Exploration</h4>
+                <p>
+                  Three-day backpacking trip through the red rock canyons.
+                  Discovered hidden waterfalls and ancient petroglyphs.
+                </p>
+                <div class="card-actions">
+                  <span class="material-icons">favorite_border</span>
+                  <span class="material-icons">bookmark_border</span>
+                  <span class="material-icons">share</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-content">
+            <div class="announcements">
+              <h3>Trail Updates</h3>
+              <div class="announcement-card">
+                <div class="announcement">
+                  <h5>Trail Maintenance Alert</h5>
+                  <p>
+                    North Cascade Loop temporary closure due to bridge repairs.
+                    Expected to reopen next week.
+                  </p>
+                </div>
+                <div class="announcement">
+                  <h5>Weekend Group Hike</h5>
+                  <p>
+                    Join us for a guided hike through Alpine Lakes Wilderness
+                    this Saturday.
+                  </p>
+                </div>
+                <div class="announcement">
+                  <h5>New Trail Maps Available</h5>
+                  <p>
+                    Updated topographic maps for Olympic National Park now
+                    available for download.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="trending">
+              <h3>Popular Trails</h3>
+              <div class="trending-card">
+                <div class="trend">
+                  <img src="https://via.placeholder.com/30" alt="Trail Image" />
+                  <div class="trend-info">
+                    <p class="trend-handle">Wonderland Trail</p>
+                    <p class="trend-desc">93-mile loop, Mount Rainier</p>
+                  </div>
+                </div>
+                <div class="trend">
+                  <img src="https://via.placeholder.com/30" alt="Trail Image" />
+                  <div class="trend-info">
+                    <p class="trend-handle">Hoh River Trail</p>
+                    <p class="trend-desc">Olympic National Park</p>
+                  </div>
+                </div>
+                <div class="trend">
+                  <img src="https://via.placeholder.com/30" alt="Trail Image" />
+                  <div class="trend-info">
+                    <p class="trend-handle">Enchantments</p>
+                    <p class="trend-desc">Alpine Lakes Wilderness</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
